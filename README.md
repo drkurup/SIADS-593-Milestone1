@@ -1,18 +1,35 @@
 # SIADS-593-Milestone1
 
-This is the SIADS-593 Milestone project Readme document
+This is the SIADS-593 Milestone project Readme document.
 
-Refer to this URL to see Chicago L Map: https://www.transitchicago.com/assets/1/6/ctamap_Lsystem.png
+Refer to this URL to see the Chicago L Map: [Chicago L Map](https://www.transitchicago.com/assets/1/6/ctamap_Lsystem.png)
 
-Chicago L Ridership datascience project is collaborately developed in Deepnote 
-This is developed as part of SIADS-593-Milestone1 project
+The Chicago L Ridership data science project is collaboratively developed in Deepnote. This is developed as part of the SIADS-593-Milestone1 project.
 
-GitHub URL : https://github.com/drkurup/siads_593_milestone1 (This is a private repository for timebeing)
+GitHub URL: [https://github.com/drkurup/siads_593_milestone1](https://github.com/drkurup/siads_593_milestone1) (This is a private repository for the time being)
 
-##Project Structure
+## Running the Project in Deepnote
 
-![Source](https://deepnote.com/workspace/chicagolridership-30785279-c5f2-4b98-b2b2-d4cbb1a45522/project/ChicagoLRidership-7862ac62-05ae-412f-9bc1-59d586e87203/siads_593_milestone1%2Ffiles%2Fsiads593_milestone1_project_structure.png)
+To run a Notebook, copy the `*.ipynb` files from the `deepnote/` folder to the Notebooks section in Deepnote.
 
+![Deepnote Workspace](files/siads593_deepnote_structure.png)
+
+
+When the workspace is initialized, Deepnote will automatically run `Init.ipynb` and all the installations mentioned in `requirements.txt`. Make sure to copy `requirements.txt` from `deepnote/.` to the root level of `Files/.`
+
+## Running the Project in Jupyter Notebook
+
+Follow the above steps to checkout the project from the GitHub repository. Use the `Jupyter/` files to run in Jupyter Notebook.
+
+Note that the installations, libraries, and setup might need some manual intervention when using a Deepnote project in Jupyter Notebook.
+
+## Project Structure
+
+![Project Structure](files/siads593_milestone1_project_structure.png)
+
+## Git Status
+
+```bash
 (venv) root@deepnote:~/work/siads_593_milestone1 # git status
 On branch main
 Your branch is up to date with 'origin/main'.
@@ -67,8 +84,8 @@ Changes to be committed:
         new file:   src/reports/secondary_dataset_profiling.html
         new file:   src/reports/tertiary_dataset_profiling.html
 
-(venv) root@deepnote:~/work/siads_593_milestone1 # git commit -m "Changes to Data collection, cleaning , analysis, visualizations, Init. Adding requirements.txt"
-[main 9d3fba5] Changes to Data collection, cleaning , analysis, visualizations, Init. Adding requirements.txt
+(venv) root@deepnote:~/work/siads_593_milestone1 # git commit -m "Changes to Data collection, cleaning, analysis, visualizations, Init. Adding requirements.txt"
+[main 9d3fba5] Changes to Data collection, cleaning, analysis, visualizations, Init. Adding requirements.txt
  
 (venv) root@deepnote:~/work/siads_593_milestone1 # git push
 (venv) root@deepnote:~/work/siads_593_milestone1 # git config --global user.name "Your name"
@@ -76,18 +93,5 @@ Changes to be committed:
 (venv) root@deepnote:~/work/siads_593_milestone1 # git remote set-url origin https://your-username:your-PAT@github.com/your-username/siads_593_milestone1.git
 (venv) root@deepnote:~/work/siads_593_milestone1 # git config --global credential.helper cache
 (venv) root@deepnote:~/work/siads_593_milestone1 # git config --global credential.helper 'cache --timeout=3600'
-(venv) root@deepnote:~/work/siads_593_milestone1 # git push origin main
+(venv) root@deepnote:~/work/siads_593_milestone1 # git push origin main 
 
-To Run a Notebook, copy *.ipynb files from deepnote/ folder to Notebook in Deepnote
-![Deepnote Workspace](https://deepnote.com/workspace/chicagolridership-30785279-c5f2-4b98-b2b2-d4cbb1a45522/project/ChicagoLRidership-7862ac62-05ae-412f-9bc1-59d586e87203/siads_593_milestone1%2Ffiles%2Fsiads593_deepnote_structure.png)
-
-When the workspace is initialized Deepnote will automatically run Init.ipynb and all the installations mentioned in requirements.txt
-Make sure to copy requirements.txt from deepnote/. to Files/. root level
-
-## To run the project in Jupyter Notebook
-
-Follow the above steps to checkout the project from GitHub repository
-Use Jupyter/ files to run in Jupyter notebook. 
-
-We see that the installations, libraries and setup need some manual intervention when using a 
-Deepnote project in Jupyter notebook
