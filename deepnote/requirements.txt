@@ -1,8 +1,0 @@
-opencage
-import-ipynb
-pandas
-ipywidgets
-ydata-profiling
-lux-api
-watermark
-sweetviz
